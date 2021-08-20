@@ -19,6 +19,8 @@ main h1 {
 	font-size: 60px;
 	font-family: "Open Sans Condensed", sans-serif;
 	text-transform: uppercase;
+	float:left;
+	width: 100%;
 }
 
 p {
@@ -70,7 +72,7 @@ aside a {
 blockquote,
 aside,
 footer {
-	padding: 20px;
+	clear: right;
 }
 
 main div {
@@ -116,6 +118,8 @@ article {
 	color: #F2FFFC;
 	padding: 20px;
 	text-align: center;
+	float: right;
+	float: unset;
 }
 
 .leia-mais {
@@ -145,4 +149,53 @@ article {
 
 .twitter {
 	background-image: url(Extensoes/twitter.png);
+}
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+img,
+aside {
+    width: 20%;
+    float: right;
+}
+
+aside {
+    clear: right;
+	box-sizing: border-box;
+	
+}
+
+.clearfix{
+	clear: both;
+}
+cite {
+    font-style: italic;
+    float: right;
+}
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
