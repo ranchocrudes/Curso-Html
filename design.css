@@ -5,8 +5,9 @@ body {
 	line-height: 1.5;
 }
 
-h1, h2 {
+h1,h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	text-transform: uppercase;
 }
 
 main h1 {
@@ -16,6 +17,8 @@ main h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-transform: uppercase;
 }
 
 p {
@@ -36,20 +39,27 @@ aside {
 	color: #F2FFFC;
 	text-align: center;
 	font-family: "Open Sans Condensed", sans-serif;
-	
+
 }
 
-footer {
+.rodape {
 	background-color: #000;
 	color: #F2FFFC;
 }
 
+footer {
+	color: #F2FFFC;
+
+}
+
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
 	color: #851944;
+
 }
 
 aside a {
@@ -57,8 +67,10 @@ aside a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote, aside, footer {
-    padding: 20px;
+blockquote,
+aside,
+footer {
+	padding: 20px;
 }
 
 main div {
@@ -84,6 +96,53 @@ em {
 h2 {
 	font-size: 30px;
 }
-aside li{
+
+aside li {
 	display: inline;
+}
+
+#links-pag li {
+	display: block
+}
+
+article {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 20px;
+	text-align: center;
+}
+
+.leia-mais {
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	color: transparent;
+	text-indent: -9999px
+}
+
+.github {
+	background-image: url(Extensoes/github.png);
+}
+
+.linkedin {
+	background-image: url(Extensoes/linkedin.png);
+}
+
+.twitter {
+	background-image: url(Extensoes/twitter.png);
 }
